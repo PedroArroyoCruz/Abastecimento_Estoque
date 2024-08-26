@@ -10,12 +10,7 @@ import os
 import subprocess
 import sys
 
-# Tente importar o unidecode, se não estiver instalado, instale-o
-try:
-    from unidecode import unidecode
-except ImportError:
-    subprocess.check_call([sys.executable, "-m", "pip", "install", "unidecode"])
-    from unidecode import unidecode  # Tente importar novamente após a instalação
+os.system(f"{sys.executable} -m pip install unidecode")
 
 # Configurações da página
 st.set_page_config(
