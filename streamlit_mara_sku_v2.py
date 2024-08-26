@@ -6,11 +6,11 @@ from datetime import datetime, timedelta
 from PIL import Image
 from functools import partial
 import os
-#from unidecode import unidecode
-import subprocess
-import sys
+from unidecode import unidecode
+#import subprocess
+#import sys
 
-os.system(f"{sys.executable} -m pip install unidecode")
+#os.system(f"{sys.executable} -m pip install unidecode")
 
 # Configurações da página
 st.set_page_config(
