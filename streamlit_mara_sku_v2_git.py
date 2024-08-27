@@ -860,7 +860,7 @@ if 'bases' in st.session_state:
                 st.download_button(
                     label="Download estoque após abastecimento",
                     data=novo_buffer,
-                    file_name='df_apos_abastecimento_sku.xlsx',
+                    file_name='df_abastecimento_inical_ong_sku.xlsx',
                     mime='application/vnd.openxmlformats-officedocument.spreadsheetml.sheet',
                     key=1
                 )
@@ -898,7 +898,7 @@ if 'bases' in st.session_state:
                 st.download_button(
                     label="Download estoque após abastecimento",
                     data=novo_buffer,
-                    file_name='df_apos_abastecimento_sku.xlsx',
+                    file_name='df_abastecimento_inical_ong_sku.xlsx',
                     mime='application/vnd.openxmlformats-officedocument.spreadsheetml.sheet',
                     key=1
                 )
