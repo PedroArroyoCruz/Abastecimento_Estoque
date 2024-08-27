@@ -858,7 +858,7 @@ if 'bases' in st.session_state:
                 )
                 # Cria o botão de download para o novo buffer
                 st.download_button(
-                    label="Download estoque após abastecimento",
+                    label="Baixar excel: estoque após o abastecimento",
                     data=novo_buffer,
                     file_name='df_abastecimento_inical_ong_sku.xlsx',
                     mime='application/vnd.openxmlformats-officedocument.spreadsheetml.sheet',
@@ -896,7 +896,7 @@ if 'bases' in st.session_state:
                 )
                 # Cria o botão de download para o novo buffer
                 st.download_button(
-                    label="Download estoque após abastecimento",
+                    label="Baixar excel: estoque após o abastecimento",
                     data=novo_buffer,
                     file_name='df_abastecimento_inical_ong_sku.xlsx',
                     mime='application/vnd.openxmlformats-officedocument.spreadsheetml.sheet',
